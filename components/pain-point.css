@@ -1,0 +1,40 @@
+.pain-point-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pain-point-container1 {
+  flex: 0 0 auto;
+  width: 300px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+  padding-bottom: 20px;
+  justify-content: flex-start;
+}
+.pain-point-text {
+  color: #ffffff;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pain-point-text1 {
+  color: #ffffff;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
