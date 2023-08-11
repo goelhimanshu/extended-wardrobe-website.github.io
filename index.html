@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Traveler template</title>
+    <meta property="og:title" content="Traveler template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Dosis;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+      ></script>
+
+      <div class="home-container">
+        <section class="home-hero">
+          <div class="home-main">
+            <div class="home-video">
+              <video
+                src=""
+                poster="public/vecteezy_old-library-inside-illustration-ai-generative_23721119_58-1500w.jpg"
+                class="home-video1"
+              ></video>
+              <div class="home-tint"></div>
+            </div>
+            <div class="home-content">
+              <header data-thq="thq-navbar" class="home-navbar">
+                <img alt="logo" src="public/vector.svg" class="home-logo" />
+                <div data-thq="thq-burger-menu" class="home-menu">
+                  <div class="home-links">
+                    <span class="home-text link">Features</span>
+                    <span class="link">How it works</span>
+                    <span class="link">Prices</span>
+                    <span class="home-text003 link">Contact</span>
+                  </div>
+                  <button class="home-hamburger button">
+                    <svg viewBox="0 0 1024 1024" class="home-icon">
+                      <path
+                        d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+                  <div
+                    data-thq="thq-mobile-menu-nav"
+                    data-role="Nav"
+                    class="home-nav"
+                  >
+                    <div class="home-container01">
+                      <img
+                        alt="logo"
+                        src="public/logo.svg"
+                        class="home-logo1"
+                      />
+                      <div data-thq="thq-close-menu" class="home-menu-close">
+                        <svg viewBox="0 0 1024 1024" class="home-icon02">
+                          <path
+                            d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <nav
+                      data-thq="thq-mobile-menu-nav-links"
+                      data-role="Nav"
+                      class="home-nav1"
+                    >
+                      <span class="home-text004">About</span>
+                      <span class="home-text005">Features</span>
+                      <span class="home-text006">Pricing</span>
+                      <span class="home-text007">Team</span>
+                      <span class="home-text008">Blog</span>
+                    </nav>
+                    <div class="home-container02">
+                      <button class="home-login button">Login</button>
+                      <button class="button">Register</button>
+                    </div>
+                  </div>
+                  <div class="home-icon-group">
+                    <svg
+                      viewBox="0 0 950.8571428571428 1024"
+                      class="home-icon04"
+                    >
+                      <path
+                        d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                      ></path></svg
+                    ><svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon06"
+                    >
+                      <path
+                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                      ></path></svg
+                    ><svg
+                      viewBox="0 0 602.2582857142856 1024"
+                      class="home-icon08"
+                    >
+                      <path
+                        d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </header>
+              <div class="home-center">
+                <div class="home-heading">
+                  <h1 class="home-header">
+                    <span>EXTENDED WARDROBE</span>
+                    <br />
+                  </h1>
+                  <p class="home-caption">EMBRACE SPACIOUS LIVING</p>
+                </div>
+                <div class="home-content1">
+                  <div class="feature-feature">
+                    <img
+                      alt="image"
+                      src="public/organised-shelf.svg"
+                      class="feature-icon"
+                    />
+                    <h3 class="feature-header"><span>Declutter Home</span></h3>
+                    <p class="feature-description">
+                      <span>
+                        Simplify, organise, and create space with extended
+                        wardrobes
+                      </span>
+                    </p>
+                  </div>
+                  <div class="feature-feature">
+                    <img
+                      alt="image"
+                      src="public/flexible-storage.svg"
+                      class="feature-icon"
+                    />
+                    <h3 class="feature-header">
+                      <span>Flexible Storage</span>
+                    </h3>
+                    <p class="feature-description">
+                      <span>
+                        Pay for what you need, store what you want with ease
+                      </span>
+                    </p>
+                  </div>
+                  <div class="feature-feature">
+                    <img
+                      alt="image"
+                      src="public/care-person.svg"
+                      class="feature-icon"
+                    />
+                    <h3 class="feature-header">
+                      <span>Better Household Care</span>
+                    </h3>
+                    <p class="feature-description">
+                      <span>
+                        Convenient access to essentials, enhancing daily living
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="home-container03">
+          <h1 class="home-text011">
+            <span class="home-text012">CLUTTERED HOME IS DEPRESSIVE</span>
+            <br />
+          </h1>
+          <div class="home-container04">
+            <div class="pain-point-container pain-point-root-class-name6">
+              <div class="pain-point-container1">
+                <h2 class="pain-point-text">
+                  <span>Craving Room to Breathe</span>
+                </h2>
+                <span class="pain-point-text1">
+                  <span>
+                    Feeling suffocated by a cluttered home ? Explore
+                    space-saving solutions for a stress-free life .
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="pain-point-container pain-point-root-class-name3">
+              <div class="pain-point-container1">
+                <h2 class="pain-point-text">
+                  <span>Avoid Hosting Gathering</span>
+                </h2>
+                <span class="pain-point-text1">
+                  <span>
+                    Tired of feeling ashamed of your cluttered space? Impress
+                    guests with an organised and welcoming home.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="pain-point-container pain-point-root-class-name2">
+              <div class="pain-point-container1">
+                <h2 class="pain-point-text">
+                  <span>Stressfull Shopping</span>
+                </h2>
+                <span class="pain-point-text1">
+                  <span>
+                    Worried about where to put your new purchases? Find
+                    hassle-free storage options tailored to your needs.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="pain-point-container pain-point-root-class-name1">
+              <div class="pain-point-container1">
+                <h2 class="pain-point-text"><span>Lost Treasures</span></h2>
+                <span class="pain-point-text1">
+                  <span>
+                    Frustrated by searching for misplaced items? Reclaim your
+                    belongings with efficient organisation.
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="home-container05">
+            <div class="pain-point-container pain-point-root-class-name">
+              <div class="pain-point-container1">
+                <h2 class="pain-point-text"><span>Costly Chaos</span></h2>
+                <span class="pain-point-text1">
+                  <span>
+                    Paying extra for unnecessary space? Optimise storage and
+                    save on rent with smart and practical solutions.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="pain-point-container pain-point-root-class-name9">
+              <div class="pain-point-container1">
+                <h2 class="pain-point-text"><span>Unhygienic Space</span></h2>
+                <span class="pain-point-text1">
+                  <span>
+                    Longing for a hygienic living space? Transform your home
+                    into an organised haven for a healthier lifestyle.
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          alt="image"
+          src="public/screenshot%202023-08-06%20at%202.16.11%20pm-1500w.jpg"
+          class="home-image"
+        />
+        <div class="home-how-it-works">
+          <div class="home-steps">
+            <h1 class="home-text014">How it Works</h1>
+            <span class="home-text015">
+              <span class="home-text016">Offload home.</span>
+              <br />
+              <span class="home-text018">
+                Breathe at peaceful and spacious oasis
+              </span>
+              <br />
+            </span>
+            <div class="home-container06">
+              <div class="home-step">
+                <div class="home-container07">
+                  <div class="home-line"></div>
+                  <div class="home-container08">
+                    <svg viewBox="0 0 1024 1024" class="home-icon10">
+                      <path
+                        d="M384 512h-320v-128h320v-128l192 192-192 192zM1024 0v832l-384 192v-192h-384v-256h64v192h320v-576l256-128h-576v256h-64v-320z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-line01"></div>
+                </div>
+                <div class="home-container09">
+                  <h1 class="home-text020">Login</h1>
+                  <span class="home-text021">
+                    <span>
+                      Login in to Extended Wardrobe Portal to access your
+                      account
+                    </span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-step1">
+                <div class="home-container10">
+                  <div class="home-line02"></div>
+                  <div class="home-container11">
+                    <svg viewBox="0 0 1024 1024" class="home-icon12">
+                      <path
+                        d="M170 470v84h86v-84h-86zM86 598v-172h852v172h-852zM256 298v-84h-86v84h86zM86 170h852v172h-852v-172zM170 726v84h86v-84h-86zM86 854v-172h852v172h-852z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-line03"></div>
+                </div>
+                <div class="home-container12">
+                  <h1 class="home-text024">Create Wardrobe</h1>
+                  <span class="home-text025">
+                    <span>Create Wardorobes of any capacity you needed</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-step2">
+                <div class="home-container13">
+                  <div class="home-line04"></div>
+                  <div class="home-container14">
+                    <svg
+                      viewBox="0 0 1316.5714285714284 1024"
+                      class="home-icon14"
+                    >
+                      <path
+                        d="M109.714 658.286c48 0 48-73.143 0-73.143s-48 73.143 0 73.143zM951.429 625.143c-45.143-58.857-89.143-118.857-140.571-172.571l-71.429 80c-62.857 71.429-175.429 69.714-236.571-3.429-43.429-52.571-43.429-128 1.143-180l101.143-117.714c-35.429-18.286-78.286-12-116.571-12-33.714 0-66.286 13.714-90.286 37.714l-90.286 90.286h-88.571v310.857c25.143 0 48-3.429 68 16l169.714 166.857c34.857 33.714 80 63.429 129.714 63.429 25.714 0 53.143-8.571 71.429-26.857 42.857 14.857 92.571-9.143 105.714-53.143 27.429 2.286 52.571-6.286 72.571-25.143 13.143-12 30.286-36 28.571-54.857 5.143 5.143 17.714 5.714 24.571 5.714 68 0 103.429-71.429 61.714-125.143zM1042.286 658.286h54.857v-292.571h-53.143l-89.714-102.857c-24-27.429-60-43.429-96.571-43.429h-95.429c-32 0-62.857 14.286-83.429 38.286l-119.429 138.857c-21.143 25.143-21.143 60.571-0.571 85.714 32.571 38.857 92.571 39.429 126.286 1.714l110.286-124.571c26.286-29.143 74.286-1.714 62.286 35.429 21.714 25.143 45.143 49.714 66.286 74.857 28.571 35.429 56 72.571 84 108.571 17.714 22.857 30.857 50.286 34.286 80zM1206.857 658.286c48 0 48-73.143 0-73.143s-48 73.143 0 73.143zM1316.571 329.143v365.714c0 20-16.571 36.571-36.571 36.571h-248c-20.571 49.714-65.714 82.857-118.286 90.286-24.571 36-62.286 63.429-104.571 72.571-31.429 40-82.286 64-133.143 60.571-94.286 53.143-200.571 6.857-270.857-62.286l-164-161.143h-204.571c-20 0-36.571-16.571-36.571-36.571v-384c0-20 16.571-36.571 36.571-36.571h240.571c66.286-66.286 112-128 211.429-128h66.857c37.143 0 73.143 11.429 103.429 32 30.286-20.571 66.286-32 103.429-32h95.429c108.571 0 153.714 70.857 219.429 146.286h202.857c20 0 36.571 16.571 36.571 36.571z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-line05"></div>
+                </div>
+                <div class="home-container15">
+                  <h1 class="home-text028">Subscribe</h1>
+                  <span class="home-text029">
+                    <span>Select Subscription plan for your</span>
+                    <br />
+                    <span>
+                      wardrobe based on capacity and tenure of subscription
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="home-step3">
+                <div class="home-container16">
+                  <div class="home-line06"></div>
+                  <div class="home-container17">
+                    <svg viewBox="0 0 1024 1024" class="home-icon16">
+                      <path
+                        d="M320 384h128v128h-128zM512 384h128v128h-128zM704 384h128v128h-128zM128 768h128v128h-128zM320 768h128v128h-128zM512 768h128v128h-128zM320 576h128v128h-128zM512 576h128v128h-128zM704 576h128v128h-128zM128 576h128v128h-128zM832 0v64h-128v-64h-448v64h-128v-64h-128v1024h960v-1024h-128zM896 960h-832v-704h832v704z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-line07"></div>
+                </div>
+                <div class="home-container18">
+                  <h1 class="home-text033">Schedule Pickup Request</h1>
+                  <span class="home-text034">
+                    <span>Conveniently Schedule a pickup request</span>
+                    <br />
+                    <span>from portal based on your availability</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-step4">
+                <div class="home-container19">
+                  <div class="home-line08"></div>
+                  <div class="home-container20">
+                    <svg viewBox="0 0 1024 1024" class="home-icon18">
+                      <path
+                        d="M832 64h-640l-192 192v672c0 17.674 14.326 32 32 32h960c17.672 0 32-14.326 32-32v-672l-192-192zM640 640v192h-256v-192h-192l320-256 320 256h-192zM154.51 192l64-64h586.976l64 64h-714.976z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-line09"></div>
+                </div>
+                <div class="home-container21">
+                  <h1 class="home-text039">
+                    <span>Delivery Person</span>
+                    <br />
+                    <span>Picks it up</span>
+                  </h1>
+                  <span class="home-text043">
+                    <span>
+                      Delivery person reaches doorstep for pickup, performing
+                      all checks
+                    </span>
+                    <br />
+                    <span>like weight and volume of the package.</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <span class="home-text048">
+              <span class="home-text049">Request&nbsp;your belongings.</span>
+              <br />
+              <span class="home-text051">
+                Conveniently use your belongings whenever needed
+              </span>
+              <br />
+            </span>
+            <div class="home-container22">
+              <div class="home-step5">
+                <div class="home-container23">
+                  <div class="home-line10"></div>
+                  <div class="home-container24">
+                    <svg viewBox="0 0 1024 1024" class="home-icon20">
+                      <path
+                        d="M170 470v84h86v-84h-86zM86 598v-172h852v172h-852zM256 298v-84h-86v84h86zM86 170h852v172h-852v-172zM170 726v84h86v-84h-86zM86 854v-172h852v172h-852z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-line11"></div>
+                </div>
+                <div class="home-container25">
+                  <h1 class="home-text053">
+                    <span class="home-text054">Explore &amp; Manage</span>
+                    <br />
+                    <span>Wardrobes</span>
+                    <br />
+                  </h1>
+                  <span class="home-text058">
+                    <span>
+                      Explore your wardrobes and items in the wardrobe.
+                    </span>
+                    <br />
+                    <span>Monitor usage and subscription.</span>
+                    <br />
+                    <span>Use addon services like Laundry/Drycleaning</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-step6">
+                <div class="home-container26">
+                  <div class="home-line12"></div>
+                  <div class="home-container27">
+                    <svg viewBox="0 0 1024 1024" class="home-icon22">
+                      <path
+                        d="M170 470v84h86v-84h-86zM86 598v-172h852v172h-852zM256 298v-84h-86v84h86zM86 170h852v172h-852v-172zM170 726v84h86v-84h-86zM86 854v-172h852v172h-852z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-line13"></div>
+                </div>
+                <div class="home-container28">
+                  <h1 class="home-text065">
+                    <span class="home-text066">
+                      Select Wardrobe &amp; Items
+                    </span>
+                    <br />
+                  </h1>
+                  <span class="home-text068">
+                    <span>
+                      Select the items to be delivered at same address
+                    </span>
+                    <br />
+                    <span>from where it was pickedup</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-step7">
+                <div class="home-container29">
+                  <div class="home-line14"></div>
+                  <div class="home-container30">
+                    <svg viewBox="0 0 1024 1024" class="home-icon24">
+                      <path
+                        d="M320 384h128v128h-128zM512 384h128v128h-128zM704 384h128v128h-128zM128 768h128v128h-128zM320 768h128v128h-128zM512 768h128v128h-128zM320 576h128v128h-128zM512 576h128v128h-128zM704 576h128v128h-128zM128 576h128v128h-128zM832 0v64h-128v-64h-448v64h-128v-64h-128v1024h960v-1024h-128zM896 960h-832v-704h832v704z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-line15"></div>
+                </div>
+                <div class="home-container31">
+                  <h1 class="home-text073">
+                    <span class="home-text074">Schedule Delivery</span>
+                    <br />
+                    <span>Request</span>
+                    <br />
+                  </h1>
+                  <span class="home-text078">
+                    <span>Select Day and Time slot for delivery based</span>
+                    <br />
+                    <span>on your convenience</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-step8">
+                <div class="home-container32">
+                  <div class="home-line16"></div>
+                  <div class="home-container33">
+                    <svg viewBox="0 0 1024 1024" class="home-icon26">
+                      <path
+                        d="M832 64h-640l-192 192v672c0 17.674 14.326 32 32 32h960c17.672 0 32-14.326 32-32v-672l-192-192zM640 640v192h-256v-192h-192l320-256 320 256h-192zM154.51 192l64-64h586.976l64 64h-714.976z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="home-line17"></div>
+                </div>
+                <div class="home-container34">
+                  <h1 class="home-text083">
+                    <span>Requested Item</span>
+                    <br />
+                    <span>Delivered</span>
+                    <br />
+                  </h1>
+                  <span class="home-text088">
+                    <span>
+                      Requested Items gets delivered on scheduled time
+                    </span>
+                    <br />
+                    <span>and wardrobes are updated for the same</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-hero1">
+          <div class="home-container35">
+            <span class="home-text093">
+              <span class="home-text094">
+                EXPERIENCE MOST CONVENIENT STORAGE MANAGEMENT
+              </span>
+              <br />
+            </span>
+            <h2 class="home-text096">
+              <span>Extended Wardrobe</span>
+              <br />
+              <span>Mobile App &amp; Logistics</span>
+            </h2>
+            <span class="home-text100">
+              <span class="home-text101">- Effortless Organization&nbsp;</span>
+              <span>: Request, track, and manage your extended</span>
+              <br />
+              <span>&nbsp; &nbsp;wardrobe storage with ease.</span>
+              <br />
+              <br />
+              <span class="home-text107">- Convenient Access&nbsp;</span>
+              <span>: Access your belongings whenever you need</span>
+              <br />
+              <span>&nbsp; &nbsp;them, right from the app.</span>
+              <br />
+              <br />
+              <span class="home-text113">- Personalized Solutions&nbsp;</span>
+              <span>: Tailor your storage preferences and</span>
+              <br />
+              <span>&nbsp; &nbsp;schedule to match your lifestyle.</span>
+              <br />
+              <br />
+              <span class="home-text119">- Real-Time Updates&nbsp;</span>
+              <span>: Stay informed with instant notifications on your</span>
+              <br />
+              <span>&nbsp; &nbsp;storage requests and deliveries.</span>
+              <br />
+              <span></span>
+              <span></span>
+            </span>
+            <div class="home-btn-group">
+              <button class="home-button button">Subscribe</button>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/screenshot%202023-08-06%20at%202.31.05%20pm-1200w.png"
+            class="home-image1"
+          />
+        </div>
+        <div>
+          <dangerous-html
+            html="<script>
+  function initAccordion() {
+    /*
+    Accordion - Code Embed
+    */
+    const accordionContainers = document.querySelectorAll(
+      '[data-role='accordion-container']'
+    ); // All accordion containers
+    const accordionContents = document.querySelectorAll(
+      '[data-role='accordion-content']'
+    ); // All accordion content
+    const accordionIconsClosed = document.querySelectorAll(
+      '[data-role='accordion-icon-closed']'
+    ); // All accordion closed icons
+    const accordionIconsOpen = document.querySelectorAll(
+      '[data-role='accordion-icon-open']'
+    ); // All accordion open icons
+
+    accordionContents.forEach((accordionContent) => {
+      accordionContent.style.display = 'none'; //Hides all accordion contents
+    });
+
+    accordionIconsClosed.forEach((icon) => {
+      icon.style.display = 'flex';
+    });
+
+    accordionIconsOpen.forEach((icon) => {
+      icon.style.display = 'none';
+    });
+
+    accordionContainers.forEach((accordionContainer, index) => {
+      if (accordionContainer.classList.contains('initialised')) {
+        return;
+      }
+
+      accordionContainer.classList.add('initiased');
+
+      accordionContainer.addEventListener('click', () => {
+        if (accordionContents[index].style.display === 'flex') {
+          // If the accordion is already open, close it
+          accordionContents[index].style.display = 'none';
+          accordionIconsClosed[index].style.display = 'flex';
+          accordionIconsOpen[index].style.display = 'none';
+        } else {
+          // If the accordion is closed, open it
+          accordionContents.forEach((accordionContent) => {
+            accordionContent.style.display = 'none'; //Hides all accordion contents
+          });
+
+          accordionIconsClosed.forEach((accordionIcon) => {
+            accordionIcon.style.display = 'flex'; // Resets all icon transforms to 0deg (default)
+          });
+
+          accordionIconsOpen.forEach((accordionIcon) => {
+            accordionIcon.style.display = 'none';
+          });
+
+          accordionContents[index].style.display = 'flex'; // Shows accordion content
+          accordionIconsClosed[index].style.display = 'none'; // Rotates accordion icon 180deg
+          accordionIconsOpen[index].style.display = 'flex';
+        }
+      });
+    });
+  }
+
+  initAccordion();
+</script>
+"
+          ></dangerous-html>
+        </div>
+        <div class="home-pricing">
+          <div class="home-features">
+            <span class="home-text126">SUBSCRIPTION PLANS</span>
+            <h1 class="home-text127">
+              <span>PRICING</span>
+              <br />
+            </h1>
+            <div class="home-container36">
+              <div class="home-pricing-card">
+                <span class="home-text130">FLEXI - Monthly</span>
+                <div class="home-container37">
+                  <span class="home-text131">₹</span>
+                  <span class="home-text132">150</span>
+                  <span class="home-text133">/ CFT</span>
+                </div>
+                <div class="home-container38">
+                  <span class="home-text134">
+                    ✔ Free 10 service requests / month
+                  </span>
+                  <span class="home-text135">
+                    <span>✔ Additional Service Requests -</span>
+                    <span class="home-text137">₹ 20</span>
+                  </span>
+                </div>
+                <button class="home-button1 button">Subscribe</button>
+              </div>
+              <div class="home-pricing-card1">
+                <span class="home-text138">SMART - Quarterly</span>
+                <div class="home-container39">
+                  <span class="home-text139">₹</span>
+                  <span class="home-text140">140</span>
+                  <span class="home-text141">/ CFT</span>
+                </div>
+                <div class="home-container40">
+                  <div class="home-container41">
+                    <span class="home-text142">
+                      ✔ Free 15 service requests / month
+                    </span>
+                    <span class="home-text143">
+                      <span>✔ Additional Service Requests -</span>
+                      <span class="home-text145">₹ 15</span>
+                    </span>
+                    <span class="home-text146">
+                      <span>✔ Free Dry cleaning for</span>
+                      <span>stored goods twice a year.</span>
+                    </span>
+                  </div>
+                </div>
+                <button class="home-button2 button">Subscribe</button>
+              </div>
+              <div class="home-pricing-card2">
+                <span class="home-text149">ULTIMATE -&nbsp;AnnualLY</span>
+                <div class="home-container42">
+                  <span class="home-text150">₹</span>
+                  <span class="home-text151">120</span>
+                  <span class="home-text152">/ CFT</span>
+                </div>
+                <div class="home-container43">
+                  <div class="home-container44">
+                    <span class="home-text153">
+                      ✔ Free 20 service requests / month
+                    </span>
+                    <span class="home-text154">
+                      <span>✔ Additional Service Requests -</span>
+                      <span class="home-text156">₹ 10</span>
+                    </span>
+                    <span class="home-text157">
+                      <span>✔ Free Dry cleaning for</span>
+                      <span>stored goods 3 times a year.</span>
+                    </span>
+                  </div>
+                </div>
+                <button class="home-button3 button">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="home-footer">
+          <img alt="image" src="public/download.svg" class="home-image2" />
+          <span class="home-text160">
+            © 2023 NeoPulse Tech Solutions Private Limited , All Rights
+            Reserved.
+          </span>
+          <div class="home-icon-group1">
+            <svg viewBox="0 0 950.8571428571428 1024" class="home-icon28">
+              <path
+                d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+              ></path></svg
+            ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon30">
+              <path
+                d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+              ></path></svg
+            ><svg viewBox="0 0 602.2582857142856 1024" class="home-icon32">
+              <path
+                d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+              ></path>
+            </svg>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
