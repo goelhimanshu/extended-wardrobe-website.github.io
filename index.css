@@ -108,6 +108,7 @@
   background-size: cover;
   justify-content: space-between;
   background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.7) 0.00%,rgba(0, 0, 0, 0.7) 98.00%),url("public/vecteezy_old-library-inside-illustration-ai-generative_23721119_58-1500w.jpg");
+  background-position: center;
 }
 .home-header {
   width: 100%;
